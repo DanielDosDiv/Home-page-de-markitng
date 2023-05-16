@@ -1,0 +1,163 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+.nav-menu{
+    /* background-color: red; */
+    text-align: center;
+    height: 11vh;
+    position: relative;
+}
+
+
+.NomeEmpresa{
+    position: absolute;
+    color: #101423;
+
+    left: -95%;
+}
+.itens-menu{
+    position: absolute;
+    display: flex;
+    color: #525252;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    /* justify-content: center;
+    
+    text-align: center;
+    align-items: center; */
+    gap: 32px;
+}
+.NomeEmpresa{
+    position: absolute;
+    left: -150%;
+
+}
+.letras-menu a{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+
+/* identical to box height, or 14px */
+
+
+color: #525252;
+}
+
+.nav-menu .itens-menu li a{
+    color: inherit;
+}
+.Sign-up{
+    background: #3C5AE6;
+    width: 96px;
+height: 40px;
+text-align: center;
+align-items: center;
+display: flex;
+justify-content: center;
+border-radius: 16px;
+color: white;
+}
+
+.Sign-in{
+width: 96px;
+height: 40px;
+text-align: center;
+align-items: center;
+display: flex;
+justify-content: center;
+border-radius: 16px;
+color: #525252;
+
+}
+.btns-logar{
+ display: flex;
+ gap: 77px;
+position: absolute;
+right: -150%;
+top: 0%;
+}
+.titulo{
+    /* font-family: 'Inter'; */
+font-style: normal;
+width: 780px;
+height: 221px;
+font-weight: 900;
+font-size: 85px;
+line-height: 130%;
+/* or 110px */
+
+
+color: #141414;
+}
+.titulo.active{
+color: white;
+
+}
+.img-celulcar{
+    position: absolute;
+    right: 10%;
+    bottom: 0;
+    width: 20%;
+}
+.conteiner{
+    margin-top: 8%;
+    /* background-color: red; */
+    width: 780px;
+    margin-left: 5%;
+
+}
+.conteiner p{
+    margin-top: 2%;
+    color: #898CA9;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+width: 580px;
+}
+.btn-store{
+    display: flex;
+    gap: 5%;
+    margin-top: 5%;
+}
+.mudar-tema{
+    margin-top: 15%;
+    width: 90px;
+    height: 40px;
+    background-color: rgba(150, 148, 148, 0.5);
+    border-radius:20px;
+    transition: 500ms;
+}
+.mudar-tema.active{
+    background-color: #3C5AE6;
+}
+.circulo-mudar-tema{
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    border-radius: 50%;
+    transition: 500ms;
+}
+.circulo-mudar-tema.active{
+    margin-left: 60%;
+}
+
+body{
+    transition: 500ms;
+}
+
+body.dark-tema{
+    background-color: #141414;
+}
+
+.dark-tema{
+    color: #FFF;
+}
