@@ -6,6 +6,9 @@
     text-decoration: none;
     list-style: none;
 }
+body{
+     transform: scale(0.8);
+}
 .nav-menu{
     /* background-color: red; */
     text-align: center;
